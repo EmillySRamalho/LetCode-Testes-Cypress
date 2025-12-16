@@ -4,7 +4,7 @@ describe('Teste básico', () => {
     cy.visit('https://letcode.in/test')
   })
 
-  it('Visitar campo de DOM', () => {
+  it('Visitar campo de POM', () => {
 
     cy.get('.card-footer-item').first().click()
     cy.contains('button', ' ₹ 15.99 ').click()
